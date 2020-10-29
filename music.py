@@ -1,7 +1,6 @@
 # Plays music from using the Spotify API
 
 import requests
-import urllib.parse
 from config import api_token, refresh_token
 from refresh import refresh
 import time
