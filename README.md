@@ -1,4 +1,4 @@
-# Spotify_Smart_Pause
+# Spotify_Smart_Play
 
 ## About the Project
 
@@ -54,7 +54,7 @@ You'll need to create a developer account on Spotify and create a new app, instr
 
 Once this is done, store your `client_id`, `client_secret`, `base_64_id` (64 bit encoded client_id and client_secret keys), `api_token`, and `refresh_token` in a `config.py` file in the same directory.
 
-Once the `config.py` is set up, simply run `automatic_music.py` to activate the tool. To exit, press the ESC key or right click on the Python window that opens up an select "Quit". 
+Once the `config.py` is set up, simply run `smart_play.py` to activate the tool. To exit, press the ESC key or right click on the Python window that opens up an select "Quit". 
 
 
 #### Thanks for checking out my project! :wave:
