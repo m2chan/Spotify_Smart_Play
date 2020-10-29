@@ -42,14 +42,14 @@ def main():
             room_status = 'Occupied'
             music_status = 'Playing'
 
-        # Music keeps playing if there is no more motion detected for up to 5 seconds
+        # Music keeps playing if there is no more motion detected for up to ~2 seconds
         # In case user quickly walks off or stands/sits very still
-        elif not detector.user_in_room and static_frame_counter < 120:
+        elif not detector.user_in_room and static_frame_counter < 30:
             static_frame_counter += 1
             room_status = 'Empty'
             music_status = 'Playing'
         
-        # If no movement detected for >5 seconds, then pause music
+        # If no movement detected for >2 seconds, then pause music
         else:
             if music_controls.music_playing:
                 music_controls.pause_music()
