@@ -60,7 +60,7 @@ class MotionDetector(object):
         else: 
             self.user_in_room = False
 
-        return frame1
+        return frame1, thresh
 
 if __name__ == '__main__':
     detect = MotionDetector()
