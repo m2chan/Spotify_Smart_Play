@@ -28,8 +28,9 @@ def main():
     while True:
 
         # Detect motion and output frame with text and motion tracking rectangle
-        frame1 = detector.detect_motion(frame1, frame2, room_status, music_status)
+        frame1, thresh = detector.detect_motion(frame1, frame2, room_status, music_status)
         cv2.imshow('Motion Detection', frame1)
+        cv2.imshow('Differences', thresh)
         frame1 = frame2
         ret, frame2 = capture.read()
         
