@@ -4,7 +4,7 @@
 
 I usually play music or podcasts out loud using Spotify on my computer while I work, but a pain point is walking away from my desk without pausing my stream and missing the best part of a song or an important detail in the podcast. Trying to pause Spotify in order to avoid this involves either digging for the tab that I opened the Web Player on, of if I'm listening to using the desktop app, finding and opening that. 
 
-Spotify Smart Play is a tool that uses motion detection and object tracking with my computer's webcam (also works on any other video input) to determine if I'm still around. If I am, then my Spotify stream will start playing/continue to play, but if I leave the frame of the video, then my stream will get paused. My stream only resumes (picks up where it left off) when it detects that I'm back in the frame of the video. Here are some GIFSs on how it works, and a link to a YouTube video where you can hear the stream play and pause.
+Spotify Smart Play is a tool that uses motion detection and object tracking with my computer's webcam (also works on any other video input) to determine if I'm still around. If I am, then my Spotify stream will start playing/continue to play, but if I leave the frame of the video, then my stream will get paused. My stream only resumes (picks up where it left off) when it detects that I'm back in the frame of the video. Here are some GIFs on how it works, and a link to a YouTube video where you can hear the stream play and pause.
 
 ### Walking out of the room
 
