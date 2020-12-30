@@ -64,4 +64,4 @@ class MotionDetector(object):
 
 if __name__ == '__main__':
     detect = MotionDetector()
-    detect.start_camera_feed()
+    detect.detect_motion()
