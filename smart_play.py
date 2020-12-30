@@ -97,7 +97,7 @@ class SmartPlay(object):
     
     def stop(self):
         '''
-        Close windows, stop video captures, and pause music
+        Close windows, stop video capture, and pause music
         '''
         self.capture.release()
         cv2.destroyAllWindows()
